@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercedes-AMG GT Black Series</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Neue+Montreal:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar">
+    <div class="navbar__brand">AMG</div>
+    <ul class="navbar__links">
+      <li><a href="#home">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#marca">Marca</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="home" class="hero">
+    <div class="hero__content">
+      <span class="hero__eyebrow">Mercedes-AMG</span>
+      <h1 class="hero__title">GT Black Series</h1>
+      <p class="hero__subtitle">O supercarro mais extremo já produzido pela AMG. Nascido na pista, refinado para a estrada.</p>
+      <a href="#sobre" class="btn btn--primary">Descobrir</a>
+    </div>
+    <div class="hero__image-wrap">
+      <img src="images/hero.jpg" alt="Mercedes-AMG GT Black Series" class="hero__image" />
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE O CARRO ===================== -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <span class="section__eyebrow">Performance</span>
+      <h2 class="section__title">Sobre o Carro</h2>
+      <p class="section__text">
+        A Mercedes-AMG GT Black Series é um dos carros mais potentes e extremos já produzidos pela AMG.
+        Equipada com um motor V8 biturbo de 4.0 litros, ela entrega mais de 720 cavalos de potência,
+        combinando desempenho de pista com tecnologia de ponta.
+      </p>
+
+      <!-- Video -->
+      <div class="video-wrap">
+        <video controls preload="none" class="video-player">
+          <source src="images/video.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+      </div>
+
+      <!-- Specs -->
+      <h3 class="subsection__title">Especificações Principais</h3>
+      <ul class="specs-list">
+        <li class="specs-list__item">
+          <span class="specs-list__label">Motor</span>
+          <span class="specs-list__value">V8 4.0 Biturbo</span>
+        </li>
+        <li class="specs-list__item">
+          <span class="specs-list__label">Potência</span>
+          <span class="specs-list__value">720 cv</span>
+        </li>
+        <li class="specs-list__item">
+          <span class="specs-list__label">0 – 100 km/h</span>
+          <span class="specs-list__value">3,2 s</span>
+        </li>
+        <li class="specs-list__item">
+          <span class="specs-list__label">Aerodinâmica</span>
+          <span class="specs-list__value">Ativa, inspirada em GT3</span>
+        </li>
+        <li class="specs-list__item">
+          <span class="specs-list__label">Carroceria</span>
+          <span class="specs-list__value">Fibra de carbono estrutural</span>
+        </li>
+      </ul>
+
+      <!-- Motor image -->
+      <figure class="figure">
+        <img src="images/motor.webp" alt="Motor V8 4.0 Biturbo da Mercedes-AMG" class="figure__image" />
+        <figcaption class="figure__caption">Motor V8 4.0 Biturbo — 720 cv de pura engenharia alemã</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===================== TABELA ===================== -->
+  <section class="section section--dark">
+    <div class="container">
+      <span class="section__eyebrow">Linha AMG</span>
+      <h2 class="section__title">Comparativo de Modelos</h2>
+      <p class="section__text">
+        Confira abaixo os valores médios de modelos da linha Mercedes-AMG no Brasil.
+        Os preços variam conforme ano, versão e opcionais. O GT Black Series é o modelo mais exclusivo e caro da seleção.
+      </p>
+
+      <div class="table-wrap">
+        <table class="amg-table">
+          <thead>
+            <tr>
+              <th>Modelo</th>
+              <th>Motor</th>
+              <th>Potência</th>
+              <th>0 – 100 km/h</th>
+              <th>Preço médio (BR)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>AMG A 45 S</td>
+              <td>2.0 Turbo</td>
+              <td>421 cv</td>
+              <td>3,9 s</td>
+              <td>R$ 450.000</td>
+            </tr>
+            <tr>
+              <td>AMG C 63 S</td>
+              <td>V8 4.0 Biturbo</td>
+              <td>510 cv</td>
+              <td>3,9 s</td>
+              <td>R$ 900.000</td>
+            </tr>
+            <tr>
+              <td>AMG E 63 S</td>
+              <td>V8 4.0 Biturbo</td>
+              <td>612 cv</td>
+              <td>3,4 s</td>
+              <td>R$ 1.200.000</td>
+            </tr>
+            <tr>
+              <td>AMG GT 63 S</td>
+              <td>V8 4.0 Biturbo</td>
+              <td>639 cv</td>
+              <td>3,2 s</td>
+              <td>R$ 1.800.000</td>
+            </tr>
+            <tr>
+              <td>AMG SL 63</td>
+              <td>V8 4.0 Biturbo</td>
+              <td>585 cv</td>
+              <td>3,6 s</td>
+              <td>R$ 1.700.000</td>
+            </tr>
+            <tr class="amg-table__highlight">
+              <td>AMG GT Black Series</td>
+              <td>V8 4.0 Biturbo</td>
+              <td>720 cv</td>
+              <td>3,2 s</td>
+              <td>R$ 3.000.000+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE A MARCA ===================== -->
+  <section id="marca" class="section">
+    <div class="container container--two-col">
+      <div class="brand-text">
+        <span class="section__eyebrow">História</span>
+        <h2 class="section__title">Sobre a Marca</h2>
+        <p class="section__text">
+          A Mercedes-Benz é uma marca alemã de automóveis reconhecida mundialmente por seu luxo, inovação e qualidade.
+          Fundada a partir das contribuições de Karl Benz e Gottlieb Daimler, tornou-se referência em tecnologia,
+          segurança e desempenho. Atualmente, integra o Mercedes-Benz Group e investe fortemente em mobilidade elétrica e sustentabilidade.
+        </p>
+        <a href="https://www.mercedes-amg.com" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+          Site Oficial ↗
+        </a>
+      </div>
+      <div class="brand-logo">
+        <img src="images/logo.jpg" alt="Logo Mercedes-Benz" class="brand-logo__image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTATO ===================== -->
+  <section id="contato" class="section section--dark">
+    <div class="container container--narrow">
+      <span class="section__eyebrow">Contato</span>
+      <h2 class="section__title">Fale Conosco</h2>
+      <p class="section__text">Entre em contato com a Mercedes-Benz e nossa equipe responderá em breve.</p>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label class="form-label" for="nome">Nome completo</label>
+          <input class="form-input" type="text" id="nome" name="nome" placeholder="Seu nome" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">E-mail</label>
+          <input class="form-input" type="email" id="email" name="email" placeholder="seu@email.com" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="mensagem">Mensagem</label>
+          <textarea class="form-input form-input--textarea" id="mensagem" name="mensagem" rows="5" placeholder="Como podemos ajudar?"></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <p class="footer__text">© 2026 Mercedes-AMG. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
